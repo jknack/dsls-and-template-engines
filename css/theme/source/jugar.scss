@@ -57,11 +57,44 @@ $selectionBackgroundColor: #007FFF;
 $selectionColor: white;
 
 // Background generator
+
 @mixin bodyBackground() {
 	@include radial-gradient(#d3e4ea, #ffffff);
 }
 
 
+// Footer
+footer {
+	position: fixed;
+	left: 100px;
+	right: 120px;
+	bottom: 50px;
+}
+
+footer img {
+	float: left;
+	margin-right: 5px;
+	height: 60px;
+}
+
+footer .lines {
+	position: absolute;
+	bottom: 3px;
+	left: 40px;
+	right: 0px;
+}
+
+footer .lines hr {
+	@include horizontal-gradient(#00AEEF, #d3e4ea);
+	margin-top: 3px;
+	margin-bottom: 0;
+	height: 2px;
+	border: none;
+}
+
+footer .lines hr:first-child {
+	margin-right: 20px;
+}
 
 // Theme template ------------------------------
 @import "../template/theme";

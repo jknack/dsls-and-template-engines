@@ -11,6 +11,39 @@
   font-weight: normal;
   font-style: normal; }
 
+footer {
+  position: fixed;
+  left: 100px;
+  right: 120px;
+  bottom: 50px; }
+
+footer img {
+  float: left;
+  margin-right: 5px;
+  height: 60px; }
+
+footer .lines {
+  position: absolute;
+  bottom: 3px;
+  left: 40px;
+  right: 0px; }
+
+footer .lines hr {
+  background: #00aeef;
+  background: -moz-linear-gradient(left, #00aeef 0%, #d3e4ea 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #00aeef), color-stop(100%, #d3e4ea));
+  background: -webkit-linear-gradient(left, #00aeef 0%, #d3e4ea 100%);
+  background: -o-linear-gradient(left, #00aeef 0%, #d3e4ea 100%);
+  background: -ms-linear-gradient(left, #00aeef 0%, #d3e4ea 100%);
+  background: linear-gradient(left, #00aeef 0%, #d3e4ea 100%);
+  margin-top: 3px;
+  margin-bottom: 0;
+  height: 2px;
+  border: none; }
+
+footer .lines hr:first-child {
+  margin-right: 20px; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
