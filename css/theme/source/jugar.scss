@@ -42,7 +42,7 @@ $headingFont: 'League Gothic', Impact, sans-serif;
 $headingColor: #414141;
 $headingLineHeight: 0.9em;
 $headingLetterSpacing: 0.02em;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingTextShadow: none;
 $heading1TextShadow: $headingTextShadow;
 
@@ -62,6 +62,24 @@ $selectionColor: white;
 	@include radial-gradient(#d3e4ea, #ffffff);
 }
 
+// General styling
+
+.reveal .slides {
+  text-align: left;
+}
+.reveal .slides > section.cover {
+  text-align: center;
+  top: -40%;
+}
+.reveal ul {
+  margin-bottom: 40px;
+}
+.reveal ul li {
+  margin-top: 20px;
+}
+.reveal pre {
+  width: inherit;
+ }
 
 // Footer
 footer {

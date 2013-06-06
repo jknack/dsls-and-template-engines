@@ -11,6 +11,22 @@
   font-weight: normal;
   font-style: normal; }
 
+.reveal .slides {
+  text-align: left; }
+
+.reveal .slides > section.cover {
+  text-align: center;
+  top: -40%; }
+
+.reveal ul {
+  margin-bottom: 40px; }
+
+.reveal ul li {
+  margin-top: 20px; }
+
+.reveal pre {
+  width: inherit; }
+
 footer {
   position: fixed;
   left: 100px;
@@ -83,7 +99,7 @@ body {
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: none; }
 
 .reveal h1 {
