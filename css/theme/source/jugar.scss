@@ -62,6 +62,10 @@ $selectionColor: white;
 	@include radial-gradient(#d3e4ea, #ffffff);
 }
 
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
 // General styling
 
 .reveal .slides {
@@ -79,7 +83,10 @@ $selectionColor: white;
 }
 .reveal pre {
   width: inherit;
- }
+}
+.reveal section img {
+  border: none;
+}
 
 // Footer
 footer {
@@ -113,7 +120,3 @@ footer .lines hr {
 footer .lines hr:first-child {
 	margin-right: 20px;
 }
-
-// Theme template ------------------------------
-@import "../template/theme";
-// ---------------------------------------------
